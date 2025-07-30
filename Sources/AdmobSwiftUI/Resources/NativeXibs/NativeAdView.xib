@@ -51,7 +51,7 @@
                     </state>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                            <integer key="value" value="25"/>
+                            <integer key="value" value="15"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </button>
@@ -110,6 +110,11 @@
                 <constraint firstItem="drl-dr-y0X" firstAttribute="leading" secondItem="C1a-JM-qYK" secondAttribute="leading" id="qOw-rA-iD0"/>
                 <constraint firstItem="dPB-iV-i7k" firstAttribute="top" secondItem="SrO-EW-N9h" secondAttribute="bottom" constant="5" id="t5k-84-pee"/>
             </constraints>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <integer key="value" value="10"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
             <connections>
                 <outlet property="advertiserView" destination="drl-dr-y0X" id="HsM-vK-fec"/>
                 <outlet property="bodyView" destination="SrO-EW-N9h" id="fhl-QW-Bwx"/>
