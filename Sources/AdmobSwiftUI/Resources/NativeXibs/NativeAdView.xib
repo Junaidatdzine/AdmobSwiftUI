@@ -43,7 +43,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wEU-pw-G8h">
-                    <rect key="frame" x="10" y="261.5" width="300" height="34"/>
+                    <rect key="frame" x="10" y="311.5" width="300" height="34"/>
                     <color key="backgroundColor" red="0.14117647059999999" green="0.41960784309999999" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -66,10 +66,9 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="dPB-iV-i7k" customClass="GADMediaView">
-                    <rect key="frame" x="35" y="101.5" width="250" height="150"/>
+                    <rect key="frame" x="0.0" y="101.5" width="320" height="200"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="150" id="3f1-BN-uAB"/>
-                        <constraint firstAttribute="width" constant="250" id="LaR-il-Fkw"/>
+                        <constraint firstAttribute="height" constant="200" id="Ncb-Pu-Qwt"/>
                     </constraints>
                 </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Agc-xT-6Rv">
@@ -96,7 +95,7 @@
                 <constraint firstItem="C1a-JM-qYK" firstAttribute="top" secondItem="jst-Vb-cui" secondAttribute="top" constant="10" id="ACh-TB-Hzk"/>
                 <constraint firstItem="wEU-pw-G8h" firstAttribute="top" secondItem="dPB-iV-i7k" secondAttribute="bottom" constant="10" id="ECF-vQ-6mo"/>
                 <constraint firstItem="mt9-Au-6mk" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="drl-dr-y0X" secondAttribute="trailing" constant="10" id="Fpm-eX-g3o"/>
-                <constraint firstItem="dPB-iV-i7k" firstAttribute="centerX" secondItem="jst-Vb-cui" secondAttribute="centerX" id="I6K-b1-ocV"/>
+                <constraint firstItem="dPB-iV-i7k" firstAttribute="leading" secondItem="mt9-Au-6mk" secondAttribute="leading" id="GBy-5v-yOe"/>
                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="wEU-pw-G8h" secondAttribute="bottom" constant="20" symbolic="YES" id="JXo-b7-Fxl"/>
                 <constraint firstItem="1fk-kU-oWx" firstAttribute="leading" secondItem="jst-Vb-cui" secondAttribute="leading" constant="15" id="K8x-SR-bTv"/>
                 <constraint firstAttribute="trailing" secondItem="C1a-JM-qYK" secondAttribute="trailing" constant="15" id="L4A-5X-Aao"/>
@@ -109,6 +108,7 @@
                 <constraint firstItem="C9x-y3-U6t" firstAttribute="leading" secondItem="drl-dr-y0X" secondAttribute="trailing" id="fKx-um-UH3"/>
                 <constraint firstItem="drl-dr-y0X" firstAttribute="centerY" secondItem="C9x-y3-U6t" secondAttribute="centerY" id="hi4-Lb-Cdk"/>
                 <constraint firstItem="Agc-xT-6Rv" firstAttribute="left" secondItem="jst-Vb-cui" secondAttribute="left" id="nEY-t8-Jp2"/>
+                <constraint firstItem="mt9-Au-6mk" firstAttribute="trailing" secondItem="dPB-iV-i7k" secondAttribute="trailing" id="ncK-pV-jqK"/>
                 <constraint firstItem="drl-dr-y0X" firstAttribute="leading" secondItem="C1a-JM-qYK" secondAttribute="leading" id="qOw-rA-iD0"/>
                 <constraint firstItem="dPB-iV-i7k" firstAttribute="top" secondItem="SrO-EW-N9h" secondAttribute="bottom" constant="5" id="t5k-84-pee"/>
             </constraints>
